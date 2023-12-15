@@ -1,0 +1,3 @@
+// The PersistLogin.js file is a React component responsible for managing user session persistence. It uses the useRefreshMutation from authApiSlice to refresh tokens, and custom hook usePersist to determine if user 
+// sessions should persist across browser refreshes. The component employs state and Redux selectors for token management. It renders different UI states based on session status, such as loading spinners during token 
+// refresh and error messages for failed refresh attempts. On successful token refresh or if persistence is not required, it renders child components using Outlet.

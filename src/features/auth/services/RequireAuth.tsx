@@ -1,0 +1,4 @@
+// The RequireAuth.js file is a React component that controls access to certain parts of your application based on user roles. It uses a custom hook useAuth to get the current user's roles and compares them with the
+//  allowed roles passed as a prop. If the user has a role that's included in allowedRoles, the component renders its children using Outlet. Otherwise, it redirects the user to the login page, using Navigate from React 
+//  Router, and passes the current location in state, enabling a return to the attempted route post-login. This component effectively ensures that certain parts of your app are accessible only to users with specific
+//   roles.
